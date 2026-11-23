@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://bxhbl8r8wmltr"]
+
+[ext_resource type="Texture2D" uid="uid://co7mnp8c1sisp" path="res://images-ezgif.com-gif-maker.png" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://n0eqw432darp" path="res://shelf-ezgif.com-gif-maker-removebg-preview.png" id="2_h2yge"]
+[ext_resource type="Script" uid="uid://dw8e2gbhffppb" path="res://zoro.gd" id="3_7mycd"]
+[ext_resource type="Texture2D" uid="uid://fthh0e634wqr" path="res://Zoro-Background-PNG.png" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://dywf24ykfnjmj" path="res://bullets.tscn" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://dcqn0rpipniuk" path="res://log_pose_one_piece_type_1_front_view__by_starlight_sl_dgj77uu-fullview.png" id="4_7mycd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0326m"]
+size = Vector2(146, 327)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jif5p"]
+radius = 64.0
+height = 200.0
+
+[sub_resource type="FontFile" id="FontFile_5vw27"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/25/0/ascent = 0.0
+cache/0/25/0/descent = 0.0
+cache/0/25/0/underline_position = 0.0
+cache/0/25/0/underline_thickness = 0.0
+cache/0/25/0/scale = 1.0
+
+[node name="Node2D" type="Node2D" unique_id=144223356 groups=["Ammu_Box", "Bullets"]]
+metadata/_edit_horizontal_guides_ = [-17.0]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=755855077]
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1675287176]
+position = Vector2(575.00006, 331.99997)
+scale = Vector2(1.6777939, 2.3428574)
+texture = ExtResource("1_0xm2m")
+
+[node name="shelf" type="Area2D" parent="." unique_id=738320379 groups=["Ammu_Box"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="shelf" unique_id=1089788013]
+position = Vector2(74.5, 374.74115)
+scale = Vector2(0.5436242, 0.8086853)
+texture = ExtResource("2_h2yge")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="shelf" unique_id=369885656]
+position = Vector2(74, 377.5)
+shape = SubResource("RectangleShape2D_0326m")
+
+[node name="zoro" type="CharacterBody2D" parent="." unique_id=1776381588]
+position = Vector2(145, 341)
+script = ExtResource("3_7mycd")
+
+[node name="Sprite2D" type="Sprite2D" parent="zoro" unique_id=377697024]
+position = Vector2(170, 143)
+scale = Vector2(0.18859734, 0.2184999)
+texture = ExtResource("3_lquwl")
+
+[node name="PickupArea" type="Area2D" parent="zoro" unique_id=1630370223]
+position = Vector2(-2, 15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zoro/PickupArea" unique_id=1048846081]
+position = Vector2(168, 131)
+shape = SubResource("CapsuleShape2D_jif5p")
+
+[node name="HeldBullets" type="Sprite2D" parent="zoro" unique_id=1592051171]
+visible = false
+position = Vector2(13.34296, 66.453064)
+scale = Vector2(0.081361406, 0.076981544)
+texture = ExtResource("4_7mycd")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="zoro" unique_id=1965459723]
+
+[node name="Bulletscountdisplay" type="Label" parent="zoro/CanvasLayer" unique_id=487378613]
+offset_left = 1002.0
+offset_top = 24.0
+offset_right = 1107.0
+offset_bottom = 58.0
+theme_override_fonts/font = SubResource("FontFile_5vw27")
+theme_override_font_sizes/font_size = 25
+text = "compass : 0"
+horizontal_alignment = 1
+
+[node name="Bullets2" parent="." unique_id=50722653 instance=ExtResource("4_1bvp3")]
+position = Vector2(999, -230)
+
+[node name="Bullets3" parent="." unique_id=1562148989 instance=ExtResource("4_1bvp3")]
+position = Vector2(562, -238)
+
+[node name="Bullets4" parent="." unique_id=474100722 instance=ExtResource("4_1bvp3")]
+position = Vector2(458, 162)
+
+[node name="Bullets7" parent="." unique_id=1196266989 instance=ExtResource("4_1bvp3")]
+position = Vector2(912, 171)
+
+[node name="Bullets5" parent="." unique_id=1706691076 instance=ExtResource("4_1bvp3")]
+position = Vector2(955, -22)
+
+[node name="Bullets8" parent="." unique_id=920793992 instance=ExtResource("4_1bvp3")]
+position = Vector2(-10, -311)
+
+[node name="Bullets9" parent="." unique_id=214457867 instance=ExtResource("4_1bvp3")]
+position = Vector2(516, -51)
+
+[node name="Bullets10" parent="." unique_id=764185662 instance=ExtResource("4_1bvp3")]
+position = Vector2(316, -296)
+
+[node name="Bullets6" parent="." unique_id=366051779 instance=ExtResource("4_1bvp3")]
+position = Vector2(762, -132)
+
+[connection signal="area_entered" from="zoro/PickupArea" to="zoro" method="_on_pickup_area_area_entered"]
+[connection signal="child_entered_tree" from="Bullets2" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets3" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets4" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets7" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets5" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets8" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets9" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets10" to="zoro" method="_on_bullets_child_entered_tree"]
+[connection signal="child_entered_tree" from="Bullets6" to="zoro" method="_on_bullets_child_entered_tree"]
