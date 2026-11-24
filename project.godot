@@ -10,8 +10,7 @@ config_version=5
 
 [application]
 
-config/name="My second Masterpiece"
-run/main_scene="uid://bxhbl8r8wmltr"
+config/name="UMBRA"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,10 +18,6 @@ config/icon="res://icon.svg"
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
-
-[global_group]
-
-Ammu_Box=""
 
 [physics]
 
