@@ -1,0 +1,84 @@
+{
+  "opaqueColors": [
+    "#272738",
+    "#444354",
+    "#625d66",
+    "#8c8384",
+    "#b5aaa0",
+    "#d6c9b1",
+    "#30343b",
+    "#505c5e",
+    "#72847c",
+    "#a3b29b",
+    "#d4d9b8",
+    "#2d283c",
+    "#493154",
+    "#72476b",
+    "#a66b91",
+    "#85788a",
+    "#a2917f",
+    "#c2b29b",
+    "#eeeee6",
+    "#35836c",
+    "#63aa8c",
+    "#d0ebc2"
+  ],
+  "ramps": {
+    "stone": [
+      "edge",
+      "stoneDark",
+      "stoneShade",
+      "stone",
+      "stoneLight",
+      "stoneTop"
+    ],
+    "metal": [
+      "metalDark",
+      "metalShade",
+      "metal",
+      "metalLight",
+      "metalTop"
+    ],
+    "cloth": [
+      "clothDark",
+      "clothShade",
+      "cloth",
+      "clothLight"
+    ],
+    "bone": [
+      "boneDark",
+      "boneShade",
+      "bone",
+      "boneLight"
+    ],
+    "spectralFlame": [
+      "flameDark",
+      "flame",
+      "flameLight"
+    ]
+  },
+  "names": {
+    "edge": "#272738",
+    "stoneDark": "#444354",
+    "stoneShade": "#625d66",
+    "stone": "#8c8384",
+    "stoneLight": "#b5aaa0",
+    "stoneTop": "#d6c9b1",
+    "metalDark": "#30343b",
+    "metalShade": "#505c5e",
+    "metal": "#72847c",
+    "metalLight": "#a3b29b",
+    "metalTop": "#d4d9b8",
+    "clothDark": "#2d283c",
+    "clothShade": "#493154",
+    "cloth": "#72476b",
+    "clothLight": "#a66b91",
+    "boneDark": "#85788a",
+    "boneShade": "#a2917f",
+    "bone": "#c2b29b",
+    "boneLight": "#eeeee6",
+    "flameDark": "#35836c",
+    "flame": "#63aa8c",
+    "flameLight": "#d0ebc2"
+  }
+}

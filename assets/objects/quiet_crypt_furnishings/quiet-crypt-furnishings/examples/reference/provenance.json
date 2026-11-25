@@ -1,0 +1,26 @@
+{
+  "source": "dist/crypt/full/environment/tileset.png",
+  "sha256": "0de2556350c74ede3afa9c54f1a12d28c025f9746b129b6967de9cb81a30e296",
+  "metadata": "dist/crypt/full/environment/tileset.json",
+  "metadataSha256": "4fc84d181081cd0d5cebd569fff08356fc2076f831b6231e52177a26ee4f05bf",
+  "sampleOnlyTiles": [
+    "floor_stone_r0c0",
+    "floor_stone_r0c1",
+    "floor_stone_r0c2",
+    "floor_stone_r0c3",
+    "floor_stone_r1c0",
+    "floor_stone_r1c1",
+    "floor_stone_r1c2",
+    "floor_stone_r1c3",
+    "floor_stone_r2c0",
+    "floor_stone_r2c1",
+    "floor_stone_r2c2",
+    "floor_stone_r2c3",
+    "floor_stone_r3c0",
+    "floor_stone_r3c1",
+    "floor_stone_r3c2",
+    "floor_stone_r3c3"
+  ],
+  "redistributionLicense": "CC0-1.0",
+  "note": "Existing crypt floor cropped verbatim for examples; excluded from original sprite and geometry counts. No original prop or creature reused."
+}

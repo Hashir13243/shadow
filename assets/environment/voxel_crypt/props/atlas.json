@@ -1,0 +1,196 @@
+{
+  "image": "atlas.png",
+  "facings": {
+    "down": "toward the viewer",
+    "up": "away from the viewer",
+    "side": "facing right; flip for left"
+  },
+  "animations": {
+    "bones_still": {
+      "asset": "bones",
+      "animation": "still",
+      "w": 64,
+      "h": 64,
+      "frameCount": 1,
+      "frameMs": 120,
+      "frameDurationsMs": [
+        120
+      ],
+      "rects": [
+        [
+          0,
+          0,
+          64,
+          64
+        ]
+      ]
+    },
+    "pillar_still": {
+      "asset": "pillar",
+      "animation": "still",
+      "w": 64,
+      "h": 64,
+      "frameCount": 1,
+      "frameMs": 120,
+      "frameDurationsMs": [
+        120
+      ],
+      "rects": [
+        [
+          0,
+          64,
+          64,
+          64
+        ]
+      ]
+    },
+    "altar_pulse": {
+      "asset": "altar",
+      "animation": "pulse",
+      "w": 64,
+      "h": 64,
+      "frameCount": 4,
+      "frameMs": 120,
+      "frameDurationsMs": [
+        120,
+        120,
+        120,
+        120
+      ],
+      "rects": [
+        [
+          0,
+          128,
+          64,
+          64
+        ],
+        [
+          64,
+          128,
+          64,
+          64
+        ],
+        [
+          128,
+          128,
+          64,
+          64
+        ],
+        [
+          192,
+          128,
+          64,
+          64
+        ]
+      ]
+    },
+    "brazier_flicker": {
+      "asset": "brazier",
+      "animation": "flicker",
+      "w": 64,
+      "h": 64,
+      "frameCount": 6,
+      "frameMs": 90,
+      "frameDurationsMs": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "rects": [
+        [
+          0,
+          192,
+          64,
+          64
+        ],
+        [
+          64,
+          192,
+          64,
+          64
+        ],
+        [
+          128,
+          192,
+          64,
+          64
+        ],
+        [
+          192,
+          192,
+          64,
+          64
+        ],
+        [
+          256,
+          192,
+          64,
+          64
+        ],
+        [
+          320,
+          192,
+          64,
+          64
+        ]
+      ]
+    },
+    "door_iron_open": {
+      "asset": "door_iron",
+      "animation": "open",
+      "w": 72,
+      "h": 72,
+      "frameCount": 6,
+      "frameMs": 120,
+      "frameDurationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "rects": [
+        [
+          0,
+          256,
+          72,
+          72
+        ],
+        [
+          72,
+          256,
+          72,
+          72
+        ],
+        [
+          144,
+          256,
+          72,
+          72
+        ],
+        [
+          216,
+          256,
+          72,
+          72
+        ],
+        [
+          288,
+          256,
+          72,
+          72
+        ],
+        [
+          360,
+          256,
+          72,
+          72
+        ]
+      ]
+    }
+  }
+}

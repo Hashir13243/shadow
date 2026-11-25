@@ -1,0 +1,460 @@
+{
+  "slug": "crypt",
+  "title": "Voxel Crypt & Undead Pack",
+  "description": "CC0 voxel sprites for ossuaries, haunted tombs and necromancer crypts. Twelve creature geometries with twelve named palette variants.",
+  "license": "CC0-1.0",
+  "counts": {
+    "creatures": 24,
+    "props": 5,
+    "modelFamilies": 12,
+    "animationStrips": 353,
+    "frames": 2130,
+    "distinctTiles": 283,
+    "tileImages": 709
+  },
+  "modelNote": "Procedural voxel models; named material and equipment variants share model programs.",
+  "assets": [
+    {
+      "set": "creatures",
+      "names": [
+        "linen_mummy",
+        "ashen_mummy",
+        "horned_skull",
+        "hexed_skull",
+        "sarcophagus_crawler",
+        "royal_sarcophagus",
+        "bone_hound",
+        "spectral_hound",
+        "tomb_scarab",
+        "lapis_scarab",
+        "obelisk_guardian",
+        "violet_obelisk",
+        "ossuary_skeleton",
+        "cursed_skeleton",
+        "crypt_wraith",
+        "violet_wraith",
+        "carrion_bat",
+        "bloodwing_bat",
+        "grave_rat",
+        "plague_rat",
+        "ossuary_spider",
+        "widow_spider",
+        "tomb_necromancer",
+        "royal_necromancer"
+      ]
+    },
+    {
+      "set": "props",
+      "names": [
+        "bones",
+        "pillar",
+        "altar",
+        "brazier",
+        "door_iron"
+      ]
+    }
+  ],
+  "creatureModels": [
+    {
+      "name": "linen_mummy",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "biped",
+      "modelOptions": {
+        "archetype": "biped",
+        "wraps": true
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "ashen_mummy",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "biped",
+      "variantOf": "linen_mummy",
+      "modelOptions": {
+        "archetype": "biped",
+        "wraps": true
+      },
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#7a3f8f",
+        "#d29bff",
+        "#25203a",
+        "#e6edf5"
+      ]
+    },
+    {
+      "name": "horned_skull",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "skull",
+      "modelOptions": {
+        "archetype": "skull"
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "hexed_skull",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "skull",
+      "variantOf": "horned_skull",
+      "modelOptions": {
+        "archetype": "skull"
+      },
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#7a3f8f",
+        "#d29bff",
+        "#25203a",
+        "#e6edf5"
+      ]
+    },
+    {
+      "name": "sarcophagus_crawler",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "coffin",
+      "modelOptions": {
+        "archetype": "coffin"
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "royal_sarcophagus",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "coffin",
+      "variantOf": "sarcophagus_crawler",
+      "modelOptions": {
+        "archetype": "coffin"
+      },
+      "palette": [
+        "#85788a",
+        "#52465a",
+        "#e3b341",
+        "#d29bff",
+        "#25203a",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "bone_hound",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "quadruped",
+      "modelOptions": {
+        "archetype": "quadruped",
+        "ribs": true
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "spectral_hound",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "quadruped",
+      "variantOf": "bone_hound",
+      "modelOptions": {
+        "archetype": "quadruped",
+        "ribs": true
+      },
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#7a3f8f",
+        "#d29bff",
+        "#25203a",
+        "#e6edf5"
+      ]
+    },
+    {
+      "name": "tomb_scarab",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "beetle",
+      "modelOptions": {
+        "archetype": "beetle"
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "lapis_scarab",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "beetle",
+      "variantOf": "tomb_scarab",
+      "modelOptions": {
+        "archetype": "beetle"
+      },
+      "palette": [
+        "#2f5fb3",
+        "#0e2a4f",
+        "#e3b341",
+        "#8ef6f0",
+        "#25203a",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "obelisk_guardian",
+      "model": "creature",
+      "provenance": "authored geometry",
+      "geometry": "sentinel",
+      "modelOptions": {
+        "archetype": "sentinel"
+      },
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#85788a",
+        "#58d8a8",
+        "#25203a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "violet_obelisk",
+      "model": "creature",
+      "provenance": "palette variant",
+      "geometry": "sentinel",
+      "variantOf": "obelisk_guardian",
+      "modelOptions": {
+        "archetype": "sentinel"
+      },
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#7a3f8f",
+        "#d29bff",
+        "#25203a",
+        "#e6edf5"
+      ]
+    },
+    {
+      "name": "ossuary_skeleton",
+      "model": "skeleton",
+      "provenance": "derived dungeon geometry",
+      "geometry": "skeleton",
+      "palette": [
+        "#eeeee6",
+        "#a2917f",
+        "#25203a",
+        "#58d8a8",
+        "#85788a",
+        "#3a2a1e"
+      ]
+    },
+    {
+      "name": "cursed_skeleton",
+      "model": "skeleton",
+      "provenance": "palette variant",
+      "geometry": "skeleton",
+      "variantOf": "ossuary_skeleton",
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#25203a",
+        "#d29bff",
+        "#85788a",
+        "#52465a"
+      ]
+    },
+    {
+      "name": "crypt_wraith",
+      "model": "ghost",
+      "provenance": "derived dungeon geometry",
+      "geometry": "ghost",
+      "palette": [
+        "#a7b1c2",
+        "#5f6a7d",
+        "#25203a",
+        "#58d8a8"
+      ]
+    },
+    {
+      "name": "violet_wraith",
+      "model": "ghost",
+      "provenance": "palette variant",
+      "geometry": "ghost",
+      "variantOf": "crypt_wraith",
+      "palette": [
+        "#d29bff",
+        "#7a3f8f",
+        "#25203a",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "carrion_bat",
+      "model": "bat",
+      "provenance": "derived dungeon geometry",
+      "geometry": "bat",
+      "palette": [
+        "#85788a",
+        "#52465a",
+        "#8a6068",
+        "#58d8a8",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "bloodwing_bat",
+      "model": "bat",
+      "provenance": "palette variant",
+      "geometry": "bat",
+      "variantOf": "carrion_bat",
+      "palette": [
+        "#8a6068",
+        "#52465a",
+        "#c8373a",
+        "#ffd35c",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "grave_rat",
+      "model": "rat",
+      "provenance": "derived dungeon geometry",
+      "geometry": "rat",
+      "palette": [
+        "#a2917f",
+        "#52465a",
+        "#8a6068",
+        "#58d8a8",
+        "#c2b29b",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "plague_rat",
+      "model": "rat",
+      "provenance": "palette variant",
+      "geometry": "rat",
+      "variantOf": "grave_rat",
+      "palette": [
+        "#6d9444",
+        "#41642f",
+        "#a2917f",
+        "#ffd35c",
+        "#c2b29b",
+        "#eeeee6"
+      ]
+    },
+    {
+      "name": "ossuary_spider",
+      "model": "spider",
+      "provenance": "derived dungeon geometry",
+      "geometry": "spider",
+      "palette": [
+        "#85788a",
+        "#a2917f",
+        "#8a6068",
+        "#58d8a8",
+        "#eeeee6",
+        "#52465a",
+        "#c2b29b"
+      ]
+    },
+    {
+      "name": "widow_spider",
+      "model": "spider",
+      "provenance": "palette variant",
+      "geometry": "spider",
+      "variantOf": "ossuary_spider",
+      "palette": [
+        "#3d3a52",
+        "#52465a",
+        "#c8373a",
+        "#ffd35c",
+        "#eeeee6",
+        "#25203a",
+        "#85788a"
+      ]
+    },
+    {
+      "name": "tomb_necromancer",
+      "model": "mage",
+      "provenance": "derived dungeon geometry",
+      "geometry": "mage",
+      "palette": [
+        "#52465a",
+        "#25203a",
+        "#a2917f",
+        "#c2b29b",
+        "#3a2a1e",
+        "#58d8a8",
+        "#eeeee6",
+        "#58d8a8",
+        "#15131c",
+        "#d2fff5",
+        "#85788a",
+        "#52465a"
+      ]
+    },
+    {
+      "name": "royal_necromancer",
+      "model": "mage",
+      "provenance": "palette variant",
+      "geometry": "mage",
+      "variantOf": "tomb_necromancer",
+      "palette": [
+        "#7a3f8f",
+        "#2c0f45",
+        "#e3b341",
+        "#eeeee6",
+        "#52465a",
+        "#d29bff",
+        "#eeeee6",
+        "#ffd35c",
+        "#15131c",
+        "#d29bff",
+        "#9a5fae",
+        "#52465a"
+      ]
+    }
+  ],
+  "environment": {
+    "tileSize": 32,
+    "artPixelSize": 2,
+    "floorDetail": "crypt"
+  }
+}

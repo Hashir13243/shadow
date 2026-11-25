@@ -1,0 +1,338 @@
+[
+  {
+    "asset": "linen_mummy",
+    "text": "LINEN MUMMY",
+    "x": 74,
+    "y": 190,
+    "w": 130,
+    "h": 14,
+    "card": [
+      12,
+      44,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "ashen_mummy",
+    "text": "ASHEN MUMMY",
+    "x": 330,
+    "y": 190,
+    "w": 130,
+    "h": 14,
+    "card": [
+      268,
+      44,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "horned_skull",
+    "text": "HORNED SKULL",
+    "x": 580,
+    "y": 190,
+    "w": 142,
+    "h": 14,
+    "card": [
+      524,
+      44,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "hexed_skull",
+    "text": "HEXED SKULL",
+    "x": 842,
+    "y": 190,
+    "w": 130,
+    "h": 14,
+    "card": [
+      780,
+      44,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "sarcophagus_crawler",
+    "text": "SARCOPHAGUS CRAWLER",
+    "x": 26,
+    "y": 460,
+    "w": 226,
+    "h": 14,
+    "card": [
+      12,
+      314,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "royal_sarcophagus",
+    "text": "ROYAL SARCOPHAGUS",
+    "x": 294,
+    "y": 460,
+    "w": 202,
+    "h": 14,
+    "card": [
+      268,
+      314,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "bone_hound",
+    "text": "BONE HOUND",
+    "x": 592,
+    "y": 460,
+    "w": 118,
+    "h": 14,
+    "card": [
+      524,
+      314,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "spectral_hound",
+    "text": "SPECTRAL HOUND",
+    "x": 824,
+    "y": 460,
+    "w": 166,
+    "h": 14,
+    "card": [
+      780,
+      314,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "tomb_scarab",
+    "text": "TOMB SCARAB",
+    "x": 74,
+    "y": 730,
+    "w": 130,
+    "h": 14,
+    "card": [
+      12,
+      584,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "lapis_scarab",
+    "text": "LAPIS SCARAB",
+    "x": 324,
+    "y": 730,
+    "w": 142,
+    "h": 14,
+    "card": [
+      268,
+      584,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "obelisk_guardian",
+    "text": "OBELISK GUARDIAN",
+    "x": 556,
+    "y": 730,
+    "w": 190,
+    "h": 14,
+    "card": [
+      524,
+      584,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "violet_obelisk",
+    "text": "VIOLET OBELISK",
+    "x": 824,
+    "y": 730,
+    "w": 166,
+    "h": 14,
+    "card": [
+      780,
+      584,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "ossuary_skeleton",
+    "text": "OSSUARY SKELETON",
+    "x": 44,
+    "y": 1000,
+    "w": 190,
+    "h": 14,
+    "card": [
+      12,
+      854,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "cursed_skeleton",
+    "text": "CURSED SKELETON",
+    "x": 306,
+    "y": 1000,
+    "w": 178,
+    "h": 14,
+    "card": [
+      268,
+      854,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "crypt_wraith",
+    "text": "CRYPT WRAITH",
+    "x": 580,
+    "y": 1000,
+    "w": 142,
+    "h": 14,
+    "card": [
+      524,
+      854,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "violet_wraith",
+    "text": "VIOLET WRAITH",
+    "x": 830,
+    "y": 1000,
+    "w": 154,
+    "h": 14,
+    "card": [
+      780,
+      854,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "carrion_bat",
+    "text": "CARRION BAT",
+    "x": 74,
+    "y": 1270,
+    "w": 130,
+    "h": 14,
+    "card": [
+      12,
+      1124,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "bloodwing_bat",
+    "text": "BLOODWING BAT",
+    "x": 318,
+    "y": 1270,
+    "w": 154,
+    "h": 14,
+    "card": [
+      268,
+      1124,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "grave_rat",
+    "text": "GRAVE RAT",
+    "x": 598,
+    "y": 1270,
+    "w": 106,
+    "h": 14,
+    "card": [
+      524,
+      1124,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "plague_rat",
+    "text": "PLAGUE RAT",
+    "x": 848,
+    "y": 1270,
+    "w": 118,
+    "h": 14,
+    "card": [
+      780,
+      1124,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "ossuary_spider",
+    "text": "OSSUARY SPIDER",
+    "x": 56,
+    "y": 1540,
+    "w": 166,
+    "h": 14,
+    "card": [
+      12,
+      1394,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "widow_spider",
+    "text": "WIDOW SPIDER",
+    "x": 324,
+    "y": 1540,
+    "w": 142,
+    "h": 14,
+    "card": [
+      268,
+      1394,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "tomb_necromancer",
+    "text": "TOMB NECROMANCER",
+    "x": 556,
+    "y": 1540,
+    "w": 190,
+    "h": 14,
+    "card": [
+      524,
+      1394,
+      256,
+      270
+    ]
+  },
+  {
+    "asset": "royal_necromancer",
+    "text": "ROYAL NECROMANCER",
+    "x": 806,
+    "y": 1540,
+    "w": 202,
+    "h": 14,
+    "card": [
+      780,
+      1394,
+      256,
+      270
+    ]
+  }
+]

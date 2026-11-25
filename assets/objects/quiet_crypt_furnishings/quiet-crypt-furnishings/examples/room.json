@@ -1,0 +1,105 @@
+{
+  "size": [
+    448,
+    320
+  ],
+  "tileSize": 32,
+  "artGrid": 2,
+  "floor": {
+    "file": "reference/crypt-floor.png",
+    "tileSize": 32,
+    "columns": 4,
+    "roomOrigin": [
+      32,
+      32
+    ],
+    "roomTiles": [
+      12,
+      8
+    ],
+    "tileAt": "(row % 4) * 4 + (column % 4)",
+    "sampleOnly": true
+  },
+  "placements": [
+    {
+      "id": "memorial",
+      "ground": [
+        224,
+        118
+      ]
+    },
+    {
+      "id": "vigil_candles",
+      "ground": [
+        150,
+        126
+      ]
+    },
+    {
+      "id": "vigil_candles",
+      "ground": [
+        298,
+        126
+      ]
+    },
+    {
+      "id": "funerary_standard",
+      "ground": [
+        76,
+        150
+      ]
+    },
+    {
+      "id": "funerary_standard",
+      "ground": [
+        372,
+        150
+      ]
+    },
+    {
+      "id": "sarcophagus",
+      "ground": [
+        224,
+        200
+      ]
+    },
+    {
+      "id": "lidded_urn",
+      "ground": [
+        80,
+        214
+      ]
+    },
+    {
+      "id": "lidded_urn",
+      "ground": [
+        368,
+        214
+      ]
+    },
+    {
+      "id": "mourning_bench",
+      "ground": [
+        224,
+        272
+      ]
+    },
+    {
+      "id": "bone_reliquary",
+      "ground": [
+        104,
+        282
+      ]
+    },
+    {
+      "id": "offering_amphora",
+      "ground": [
+        346,
+        282
+      ]
+    }
+  ],
+  "layering": "Draw floor first; place props in listed increasing ground Y order using atlas anchors. All placements use unscaled, identical shipping PNGs.",
+  "newSpriteInstances": 11,
+  "uniqueNewSprites": 8
+}

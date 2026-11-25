@@ -1,0 +1,261 @@
+{
+  "image": "atlas.png",
+  "size": [
+    384,
+    192
+  ],
+  "gridPixels": 2,
+  "filter": "nearest",
+  "coordinates": "pixels; top-left origin; rectangles are [x,y,width,height]",
+  "anchorMeaning": "Ground contact at front centre; place image top-left = desired ground position minus anchor. Sort floor props by anchor world Y. Footprints are blocking rectangles [dx,dy,w,h] extending behind the anchor.",
+  "sprites": [
+    {
+      "id": "sarcophagus",
+      "name": "Vigil sarcophagus",
+      "description": "Freestanding low limestone tomb, horizontal sealed effigy lid and deep front face; no creature limbs.",
+      "file": "sprites/sarcophagus.png",
+      "rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        86
+      ],
+      "opaqueBounds": [
+        10,
+        30,
+        72,
+        56
+      ],
+      "footprintRelativeToAnchor": [
+        -34,
+        -22,
+        68,
+        22
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "lidded_urn",
+      "name": "Ashkeeper urn",
+      "description": "Round covered ash urn with ring handles and stepped foot.",
+      "file": "sprites/lidded_urn.png",
+      "rect": [
+        96,
+        0,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        88
+      ],
+      "opaqueBounds": [
+        26,
+        36,
+        46,
+        52
+      ],
+      "footprintRelativeToAnchor": [
+        -10,
+        -8,
+        20,
+        8
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "offering_amphora",
+      "name": "Libation amphora",
+      "description": "Tall narrow-necked vessel with two open loop handles; distinct urn geometry.",
+      "file": "sprites/offering_amphora.png",
+      "rect": [
+        192,
+        0,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        88
+      ],
+      "opaqueBounds": [
+        22,
+        32,
+        52,
+        56
+      ],
+      "footprintRelativeToAnchor": [
+        -10,
+        -8,
+        20,
+        8
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "memorial",
+      "name": "Namesake memorial",
+      "description": "Arched inscribed headstone with a recessed name panel and stepped stone base.",
+      "file": "sprites/memorial.png",
+      "rect": [
+        288,
+        0,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        90
+      ],
+      "opaqueBounds": [
+        20,
+        14,
+        56,
+        76
+      ],
+      "footprintRelativeToAnchor": [
+        -24,
+        -12,
+        48,
+        12
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "vigil_candles",
+      "name": "Three vigil candles",
+      "description": "Three unequal wax candles in a low oval tarnished-metal tray, static spectral flames.",
+      "file": "sprites/vigil_candles.png",
+      "rect": [
+        0,
+        96,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        90
+      ],
+      "opaqueBounds": [
+        18,
+        32,
+        62,
+        58
+      ],
+      "footprintRelativeToAnchor": [
+        -24,
+        -8,
+        48,
+        8
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "bone_reliquary",
+      "name": "Ossuary reliquary",
+      "description": "Open display shrine holding one skull and two crossed long bones; metal posts, stone base.",
+      "file": "sprites/bone_reliquary.png",
+      "rect": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        90
+      ],
+      "opaqueBounds": [
+        12,
+        24,
+        72,
+        66
+      ],
+      "footprintRelativeToAnchor": [
+        -30,
+        -12,
+        60,
+        12
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "funerary_standard",
+      "name": "Veil standard",
+      "description": "Freestanding tarnished-metal pole, split violet cloth and woven bone sigil.",
+      "file": "sprites/funerary_standard.png",
+      "rect": [
+        192,
+        96,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        90
+      ],
+      "opaqueBounds": [
+        18,
+        6,
+        60,
+        84
+      ],
+      "footprintRelativeToAnchor": [
+        -14,
+        -10,
+        28,
+        10
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    },
+    {
+      "id": "mourning_bench",
+      "name": "Mourning bench",
+      "description": "Wide low limestone bench on two pierced block supports, carved front frieze.",
+      "file": "sprites/mourning_bench.png",
+      "rect": [
+        288,
+        96,
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        88
+      ],
+      "opaqueBounds": [
+        8,
+        46,
+        80,
+        42
+      ],
+      "footprintRelativeToAnchor": [
+        -36,
+        -14,
+        72,
+        14
+      ],
+      "frames": 1,
+      "facing": "front",
+      "animation": null
+    }
+  ]
+}

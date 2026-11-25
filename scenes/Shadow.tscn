@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bmx33jsxsbqsb"]
+
+[node name="Main" type="Node2D" unique_id=831443178]
+
+[node name="Human" type="CharacterBody2D" parent="." unique_id=1919839723]
+
+[node name="Shadow" type="CharacterBody2D" parent="." unique_id=33508444]
